@@ -8,4 +8,8 @@ public class Lobby_manager : MonoBehaviour
     public void LoadPlayScene(){
         SceneManager.LoadScene("Main");
     }
+
+    public void LoadLobbyScene(){
+        SceneManager.LoadScene("lobby");
+    }
 }
